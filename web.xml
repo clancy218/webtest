@@ -1,0 +1,8 @@
+create table mytable(    
+  word  varchar(30),  
+  chinese   varchar(30)  
+);  
+insert into mytable values('apple','苹果');  
+insert into mytable values('big','大的');  
+
+select * from mytable;  
